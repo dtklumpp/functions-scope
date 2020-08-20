@@ -33,7 +33,7 @@ The commit message should read: <br>
 <hr>
 
 ## 2. Palindrome again.
-Write a function `checkPalindrome` that accepts a single argument, a string. Yes, you've done it before, but do it again. Later in this assignment we're gonna beef up our palindrome function some. See if you can do it without looking back at your previous answer. The function should return true if the string is a palindrome, false if not. Make sure your function will give the correct answer for words with **capital letters**.
+Write a function `checkPalindrome` that accepts a single argument, a string. See if you can do it without looking back at your previous answer. The function should return true if the string is a palindrome, false if not. Make sure your function will give the correct answer for words with **capital letters**.
 
 ```javascript
 console.log(checkPalindrome("Radar"));
@@ -118,13 +118,12 @@ The commit message should read: <br>
 
 
 ## CSS
-Watch the following three videos on CSS:
+If you want to review some CSS, here are a few suggested videos:
 
 - [First CSS video - 5 minutes](https://www.youtube.com/watch?v=xWiT2TWCFjc&index=3&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
 - [Second CSS video - 11 minutes](https://www.youtube.com/watch?v=UMMHsQPmfug&index=4&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
 - [Third CSS video - 17 minutes](https://www.youtube.com/watch?v=g0Aq2kP5-CY&index=5&list=PLdnONIhPScST0Vy4LrIZiYKpFNoxgyH7J)
 
-You will need to have watched these videos for tomorrow's lab.
 
 # Hungry for more?
 
