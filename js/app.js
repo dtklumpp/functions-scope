@@ -36,6 +36,7 @@ const checkPalindrome = function(string1) {
     //return output1;
     return output2;
 }
+logit("part 2");
 logit(checkPalindrome('Radar'));
 logit(checkPalindrome("Borscht"));
 
@@ -57,6 +58,7 @@ const sumDigits = function(num1) {
     }
     return sumVal;
 }
+logit("part3");
 console.log(sumDigits(1542));
 
 
@@ -66,6 +68,7 @@ const calculateSide = function(sideA, sideB) {
     output1 = Math.sqrt( sideA**2 + sideB**2 );
     return output1;
 }
+logit("part4");
 logit(calculateSide(8,6));
 
 
@@ -79,7 +82,26 @@ const sumArray1 = function(array1) {
     }
     return sumVar;
 }
+logit("part5");
 logit(sumArray1([1, 2, 3, 4, 5, 6]));
 
 
 //part 6
+const checkPrime = function(int1) {
+    root1 = Math.floor(Math.sqrt(int1));
+    for(let i = 2; i < root1; i++){
+        if((int1/i) === Math.floor(int1/i)){
+            return false;
+        }
+    }
+    return true;
+}
+logit('part 6');
+logit(checkPrime(17));
+logit(checkPrime(18));
+
+//part 6 v2
+
+
+
+
