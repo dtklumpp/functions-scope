@@ -67,3 +67,19 @@ const calculateSide = function(sideA, sideB) {
     return output1;
 }
 logit(calculateSide(8,6));
+
+
+
+//part 5
+
+const sumArray1 = function(array1) {
+    sumVar = 0;
+    for(let i = 0; i < array1.length; i++){
+        sumVar += array1[i];
+    }
+    return sumVar;
+}
+logit(sumArray1([1, 2, 3, 4, 5, 6]));
+
+
+//part 6
