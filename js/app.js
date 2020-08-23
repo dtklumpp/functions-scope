@@ -1,5 +1,9 @@
 console.log('you are hearing me talk');
 
+const logit = function(output1) {
+    console.log(output1);
+}
+
 // What is the difference between a parameter and an argument?
 // the parameters are the names of the value(s) that will be passed into a function
 // whereas the arguments are the actual values
@@ -19,4 +23,24 @@ console.log('you are hearing me talk');
 // but anyway it means a function doesn't just DO something, it actually IS something, or EVALUATES TO something in the code.  This i guess makes it a lot easier to nest functions within functions and have multi-layer code that builds on itself in complexity.  Or something like that.
 
 
+
+//part 2
+
+const checkPalindrome = function(string1) { 
+    array1 = string1.toLowerCase().split("");
+    array2 = string1.toLowerCase().split("").reverse();
+    //output1 = array1 == array2; why doesn't this work??  no clue!!
+    restore1 = array1.join("");
+    restore2 = array2.join("");
+    output2 = restore1 == restore2;
+    //return output1;
+    return output2;
+}
+logit(checkPalindrome('Radar'));
+logit(checkPalindrome("Borscht"));
+
+
+
+
+//part 3
 
