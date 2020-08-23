@@ -114,3 +114,32 @@ logit('part 6 v2');
 logit(printPrimes(10));
 logit(printPrimes(100));
 
+
+
+
+
+
+
+
+//hungry 1 did the lab
+//the labs seems harder than the HW...
+
+//hungry 2 not so bad
+
+//hungry 3 use pop and push for string
+//so .length and [] work strings
+//so can string[string.length] to get last char
+//could always put in array i guess
+//then just loop array to make a string??
+//how can make a string if immutable?
+//well you can concatenate
+//ok yeah so concat with a loop....how annoying..
+
+//hungry 4 remove spaces, uncapitalize
+
+//hungry 5 check for just letters i guess
+
+//hungry 6 hmm maybe insert special character when break char
+//then remove everything but letters and that
+//then split into array by break char
+
