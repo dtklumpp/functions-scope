@@ -44,3 +44,18 @@ logit(checkPalindrome("Borscht"));
 
 //part 3
 
+const sumDigits = function(num1) {
+    string1 = num1.toString();
+    array1 = string1.split("");
+    sumArray = [];
+    for(let i = 0; i<array1.length; i++){
+        sumArray.push(Number(array1[i]));
+    }
+    sumVal = 0;
+    for(let i =0; i<sumArray.length; i++){
+        sumVal += sumArray[i];
+    }
+    return sumVal;
+}
+console.log(sumDigits(1542));
+
