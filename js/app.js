@@ -89,7 +89,7 @@ logit(sumArray1([1, 2, 3, 4, 5, 6]));
 //part 6
 const checkPrime = function(int1) {
     root1 = Math.floor(Math.sqrt(int1));
-    for(let i = 2; i < root1; i++){
+    for(let i = 2; i <= root1; i++){
         if((int1/i) === Math.floor(int1/i)){
             return false;
         }
@@ -99,9 +99,18 @@ const checkPrime = function(int1) {
 logit('part 6');
 logit(checkPrime(17));
 logit(checkPrime(18));
+logit(checkPrime(15));
 
 //part 6 v2
 
-
-
+const printPrimes = function(num1) {
+    logit(2);
+    logit(3);
+    for(let i = 4; i <= num1; i++) {
+        if(checkPrime(i)){logit(i)};
+    }
+}
+logit('part 6 v2');
+logit(printPrimes(10));
+logit(printPrimes(100));
 
