@@ -59,3 +59,11 @@ const sumDigits = function(num1) {
 }
 console.log(sumDigits(1542));
 
+
+//part 4
+
+const calculateSide = function(sideA, sideB) {
+    output1 = Math.sqrt( sideA**2 + sideB**2 );
+    return output1;
+}
+logit(calculateSide(8,6));
