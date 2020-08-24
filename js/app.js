@@ -121,6 +121,15 @@ logit(printPrimes(100));
 
 
 
+
+
+
+
+
+
+
+//note: 11pm Sunday.   i didn't write code for any of the Hungry problems, but i looked over them and made some notes for myself on how i'd go about them, which i'm pasting below for completeness sake.  Gonna try to plan my time better and do these in the future.
+
 //hungry 1 did the lab
 //the labs seems harder than the HW...
 
@@ -139,7 +148,7 @@ logit(printPrimes(100));
 
 //hungry 5 check for just letters i guess
 
-//hungry 6 hmm maybe insert special character when break char
-//then remove everything but letters and that
-//then split into array by break char
+//hungry 6 ok remove punctuation except spaces
+//then split(" ") by spaces
+//and flip
 
